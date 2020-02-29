@@ -10,7 +10,7 @@ import Music from "./components/music/Music";
 import Settings from "./components/settings/Settings";
 
 class App extends React.Component {
-    render = () =>
+    render = (props) =>
         <BrowserRouter>
             <div className={'app-wrapper'}>
                 <Header/>
