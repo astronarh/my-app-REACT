@@ -19,18 +19,27 @@ let state = {
         posts: [
             {id: 1, message: 'Hi, how are you?', likeCount: 10},
             {id: 2, message: 'It\'s my first post', likeCount: 13}
-        ]
+        ],
+        newPostText: 'some-new-post-text'
     },
     sidebar: {}
 };
 
-export let addPost = (postMessage) => {
+window.state = state;
+
+export let addPost = () => {
     let newPost = {
         id:5,
-        message: postMessage,
+        message: state.dialogsPage.newPostText,
         likeCount: 0
     };
     state.dialogsPage.posts.push(newPost);
+    state.dialogsPage.newPostText = '';
+    rerendetEntireTree(state);
+};
+
+export let updateNewPostText = (newText) => {
+    state.dialogsPage.newPostText = newText;
     rerendetEntireTree(state);
 };
 
