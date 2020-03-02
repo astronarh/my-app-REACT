@@ -6,13 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import state from './redax/state';
 import {addPost} from "./redax/state";
 import {BrowserRouter} from "react-router-dom";
+import {rerendetEntireTree} from "./render";
 
-// addPost('Sertomanter');
-
-ReactDOM.render(
-    <BrowserRouter>
-        <App state={state} addPost={addPost}/>,
-    </BrowserRouter>, document.getElementById('root'));
+rerendetEntireTree(state);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
