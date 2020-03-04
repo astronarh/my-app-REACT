@@ -23,33 +23,31 @@ let store = {
         },
         sidebar: {}
     },
-
-    getState() {
-        return this._state;
-    },
-
     _callSubscriber() {
         console.log('State changed')
     },
 
-    addPost() {
-        let newPost = {
-            id: 5,
-            message: this._state.dialogsPage.newPostText,
-            likeCount: 0
-        };
-        this._state.dialogsPage.posts.push(newPost);
-        this._state.dialogsPage.newPostText = '';
-        this._callSubscriber(this._state);
+    getState() {
+        return this._state;
     },
-
-    updateNewPostText(newText) {
-        this._.dialogsPage.newPostText = newText;
-        this._callSubscriber(this._state);
-    },
-
     subscribe(observer) {
         this._callSubscriber = observer;
+    },
+
+    dispatch(action) { //{ type: 'ADD-POST' }
+        if (action.type === 'ADD-POST') {
+            let newPost = {
+                id: 5,
+                message: this._state.dialogsPage.newPostText,
+                likeCount: 0
+            };
+            this._state.dialogsPage.posts.push(newPost);
+            this._state.dialogsPage.newPostText = '';
+            this._callSubscriber(this._state);
+        } else if (action.type === 'UPDATE-NEW-POST-TEXT') {
+            this._state.dialogsPage.newPostText = action.newText;
+            this._callSubscriber(this._state);
+        }
     }
 };
 
