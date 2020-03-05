@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import store from './redax/state';
+import store from './redux/state';
 import {BrowserRouter} from "react-router-dom";
 
 let rerendetEntireTree = (state) => {
