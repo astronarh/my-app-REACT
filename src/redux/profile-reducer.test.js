@@ -39,6 +39,7 @@ test('after deleting length of message should be decrement', () => {
     //3. expectation
     expect(newState.posts.length).toBe(1);
 })
+
 test(`after deleting length shouldn't be decrement if id is incorrect`, () => {
     //1. tests data
     let action = deletePost(1000);
