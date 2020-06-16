@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/my-app-REACT/static/css/main.8a1c0d5b.chunk.css",
-    "main.js": "/my-app-REACT/static/js/main.5d74b24a.chunk.js",
-    "main.js.map": "/my-app-REACT/static/js/main.5d74b24a.chunk.js.map",
-    "runtime-main.js": "/my-app-REACT/static/js/runtime-main.bf4cc247.js",
-    "runtime-main.js.map": "/my-app-REACT/static/js/runtime-main.bf4cc247.js.map",
-    "static/js/2.0c2d0401.chunk.js": "/my-app-REACT/static/js/2.0c2d0401.chunk.js",
-    "static/js/2.0c2d0401.chunk.js.map": "/my-app-REACT/static/js/2.0c2d0401.chunk.js.map",
+    "main.js": "/my-app-REACT/static/js/main.d5b041e5.chunk.js",
+    "main.js.map": "/my-app-REACT/static/js/main.d5b041e5.chunk.js.map",
+    "runtime-main.js": "/my-app-REACT/static/js/runtime-main.3f7faf30.js",
+    "runtime-main.js.map": "/my-app-REACT/static/js/runtime-main.3f7faf30.js.map",
+    "static/js/2.9588698b.chunk.js": "/my-app-REACT/static/js/2.9588698b.chunk.js",
+    "static/js/2.9588698b.chunk.js.map": "/my-app-REACT/static/js/2.9588698b.chunk.js.map",
     "static/css/3.f8304efa.chunk.css": "/my-app-REACT/static/css/3.f8304efa.chunk.css",
     "static/js/3.5d204fc3.chunk.js": "/my-app-REACT/static/js/3.5d204fc3.chunk.js",
     "static/js/3.5d204fc3.chunk.js.map": "/my-app-REACT/static/js/3.5d204fc3.chunk.js.map",
     "static/css/4.a0e8d7c8.chunk.css": "/my-app-REACT/static/css/4.a0e8d7c8.chunk.css",
-    "static/js/4.eb666403.chunk.js": "/my-app-REACT/static/js/4.eb666403.chunk.js",
-    "static/js/4.eb666403.chunk.js.map": "/my-app-REACT/static/js/4.eb666403.chunk.js.map",
+    "static/js/4.83b33909.chunk.js": "/my-app-REACT/static/js/4.83b33909.chunk.js",
+    "static/js/4.83b33909.chunk.js.map": "/my-app-REACT/static/js/4.83b33909.chunk.js.map",
     "index.html": "/my-app-REACT/index.html",
-    "precache-manifest.e24e5f11e60956bc0e1f55c0f21f35f0.js": "/my-app-REACT/precache-manifest.e24e5f11e60956bc0e1f55c0f21f35f0.js",
+    "precache-manifest.8107a97ddf4dc5d5d54ff86c28cdbbbb.js": "/my-app-REACT/precache-manifest.8107a97ddf4dc5d5d54ff86c28cdbbbb.js",
     "service-worker.js": "/my-app-REACT/service-worker.js",
     "static/css/3.f8304efa.chunk.css.map": "/my-app-REACT/static/css/3.f8304efa.chunk.css.map",
     "static/css/4.a0e8d7c8.chunk.css.map": "/my-app-REACT/static/css/4.a0e8d7c8.chunk.css.map",
     "static/css/main.8a1c0d5b.chunk.css.map": "/my-app-REACT/static/css/main.8a1c0d5b.chunk.css.map",
-    "static/js/2.0c2d0401.chunk.js.LICENSE.txt": "/my-app-REACT/static/js/2.0c2d0401.chunk.js.LICENSE.txt",
+    "static/js/2.9588698b.chunk.js.LICENSE.txt": "/my-app-REACT/static/js/2.9588698b.chunk.js.LICENSE.txt",
     "static/media/preloader.gif": "/my-app-REACT/static/media/preloader.e003a706.gif",
     "static/media/user.jpg": "/my-app-REACT/static/media/user.332173a6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bf4cc247.js",
-    "static/js/2.0c2d0401.chunk.js",
+    "static/js/runtime-main.3f7faf30.js",
+    "static/js/2.9588698b.chunk.js",
     "static/css/main.8a1c0d5b.chunk.css",
-    "static/js/main.5d74b24a.chunk.js"
+    "static/js/main.d5b041e5.chunk.js"
   ]
 }
